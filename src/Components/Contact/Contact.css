@@ -1,0 +1,97 @@
+.Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.contact-title h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+.contact-section{
+    display: flex;
+    gap: 150px;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact-left h1{
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(to right, rgb(221, 123, 123) , #fde9b3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-left p{
+    max-width: 550px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 24px;
+}
+.contact-detail{
+    display: flex;
+    gap: 20px;
+    
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+.contact-right label{
+    font-size: 24px;
+    font-weight: 500;
+}
+.contact-right input{
+    border: none;
+    width: 700px;
+    height: 80px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background-color: #393E46;
+    color: #A0A0A0;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 200;
+}
+.contact-right textarea{
+    width: 650px;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #393E46;
+    color: #A0A0A0;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 200;
+}
+.contact-submit{
+    border: none;
+    color: white;
+    padding: 20px 60px;
+    border: 2px solid orange;
+    border-radius: 50px;
+    background: linear-gradient(to right, rgb(221, 123, 123) , #fde9b3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.contact-submit:hover{
+    transform: scale(1.06);
+    transition: 0.3s;
+}
