@@ -4,7 +4,7 @@
 }
 body{
   height: 100vh;
-  background-color: #333533;
+  background: linear-gradient(to right, rgb(98, 42, 42) , #896e23);
   color: white;
   font-family: 'outfit';
 }
